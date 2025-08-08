@@ -1,0 +1,22 @@
+.skills {
+  padding: 2rem;
+  background-color: #1a1a1a;
+}
+
+.skills h2 {
+  color: #b388ff;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.technical, .soft {
+  flex: 1;
+  margin: 1rem;
+  color: #fff;
+}
