@@ -1,0 +1,79 @@
+/* Section styling */
+.home {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  color: white;
+}
+
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* Text section */
+.text {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color:rgb(25, 25, 24);
+}
+
+.text h2 {
+  color: #28d3f6;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color:rgb(25, 26, 23);
+}
+
+.download-btn {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #26bfe9, orange);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.profile-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid #62cdff;
+  box-shadow: 0 0 25px #42cbed;
+  object-fit: cover;
+  transition: box-shadow 0.4s ease, transform 0.3s ease;
+}
+
+
+.profile-image:hover {
+  box-shadow: 0 0 40px #42c2fe, 0 0 60px #26d5ec;
+  transform: scale(1.05);
+}
+body.dark-theme .text p{
+  color: #ebecec;
+}
+body.dark-theme .text h1{
+  color: #ebecec;
+}

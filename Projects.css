@@ -1,0 +1,43 @@
+.projects {
+  padding: 40px;
+  background-color: #fafafb;
+  color: white;
+  text-align: center;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+   background: linear-gradient(90deg,rgb(154, 199, 217) 0%,  rgb(221, 216, 234) 98%);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 7px rgba(0,0,0,0.3);
+    box-shadow: 0 0 25px #4e6e76;
+   transition: box-shadow 0.4s ease, transform 0.3s ease;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project-card button {
+  background-color: #ed8a7a;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.projects h2{
+  color: rgb(109, 82, 207);
+}

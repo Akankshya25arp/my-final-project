@@ -1,0 +1,22 @@
+/* App.css */
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* For sections like Home, About, etc. */
+section {
+  padding: 2rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-theme section {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+``
